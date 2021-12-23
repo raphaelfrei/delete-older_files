@@ -1,0 +1,1 @@
+forfiles /p "[FILE_PATH]"  /s /d -[DAYS] /c "cmd /c del /f /q @path"
